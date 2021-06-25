@@ -19,7 +19,7 @@ To complete this lab, follow each of the steps below.
     - We change `Year` to string because in this lab we treat it as a categorical data. In some uncommon cases Tableau has issues by treating year as a number when we use it as categorical variable. 
     - In a lot of times software has bugs and data analysts need to document these issues and their work-around so that they know how to avoid the same issues in their future work.
 3. Let's start our analysis by looking at the number of games played per year. 
-    1. Drag the *`nfl_football_team_stats.csv(Count)`* measure to Rows (this measure is the number of Records). 
+    1. Drag the *`nfl_football_team_stats.csv(Count)`* measure to Rows (in the next steps we will refer to this measure as `Number of Records`). 
     1. Drag the `Year` dimension to Columns.
     1. You now see a bar chart with `Number of Records` as the Y axis and `Year` as the X axis.
     1. You should also notice that 2017 has fewer games than previous years. Guess why? Yes, it indicates this data was likely collected midway through the 2017 season. This is something we should keep in mind, especially when comparing sums of statistics across seasons.
@@ -27,7 +27,7 @@ To complete this lab, follow each of the steps below.
         * *Hint: read the actual data to figure out why. And modify the Rows formula to fix the issue.*
     1. After you fix the measure, drag it from *Rows* to *Measures* to create a new measure. Rename it to `Number of Games` so that you can reuse it later.
 4. Now we want to visualize the win/loss proportions of each team by year using pie charts. Follow the steps below:
-    1. Create another worksheet that contains a tabular visualization with the number of records by `Team`. This can be achieved by dragging the `Number of Records` measure to Rows, then dragging the `Team` dimension into the `Number of Records` bar in the visualization panel.
+    1. Create another worksheet that contains a tabular visualization with the number of records by `Team`. This can be achieved by dragging the *`nfl_football_team_stats.csv(Count)`* measure to Rows, then dragging the `Team` dimension into the `Number of Records` bar in the visualization panel.
     1. Drag the `Year` and `Result` dimensions into Columns so that we can see the number of wins vs. losses for each team and year.
     1. From the *Show Me* menu at the top right of the screen, select the pie chart visualization. This will create a pie chart for each team-year combination showing the proportion of wins to losses.
     1. Make sure that the `Team` field is in the *Row* section and the `Year` field is in the *Columns* section after you add the pie charts. Tableau will sometimes reverse the axes when you change visualizations. If Tableau reversed the axes, go to the *Analysis* menu option and select *Swap Rows and Columns*.
