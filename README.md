@@ -19,7 +19,7 @@ To complete this lab, follow each of the steps below.
     - We change `Year` to string because in this lab we treat it as a categorical data. In some uncommon cases Tableau has issues by treating year as a number when we use it as categorical variable. 
     - In a lot of times software has bugs and data analysts need to document these issues and their work-around so that they know how to avoid the same issues in their future work.
 3. Let's start our analysis by looking at the number of games played per year. 
-    1. Drag the `Number of Records` measure to Rows.
+    1. Drag the *`nfl_football_team_stats.csv(Count)`* measure to Rows (this measure is the number of Records). 
     1. Drag the `Year` dimension to Columns.
     1. You now see a bar chart with `Number of Records` as the Y axis and `Year` as the X axis.
     1. You should also notice that 2017 has fewer games than previous years. Guess why? Yes, it indicates this data was likely collected midway through the 2017 season. This is something we should keep in mind, especially when comparing sums of statistics across seasons.
