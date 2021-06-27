@@ -1,0 +1,8 @@
+Hi Raul, please find here both the link of tableau public for Lab- Data Visualization with Tableau and also its bonus challeneges. 
+
+
+CHALLENGE 1 LINK:
+https://public.tableau.com/app/profile/ayub.pathan/viz/lab-tableau-data-visualization-CHALLENGE1/Dashboard1
+
+BONUS CHALLENGE LINK:
+https://public.tableau.com/app/profile/ayub.pathan/viz/lab-tableau-data-visualization-BONUSCHALLENGE/Dashboard2-Bonuschallenge
